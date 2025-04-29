@@ -1,5 +1,6 @@
 # object-detection
 In this project by using Jupyter we make a program to detect some objects
+open file name object-detect.ipynb my codes are there
 # پروژه تشخیص اشیاء
 
 این پروژه یک مدل یادگیری ماشین برای *تشخیص اشیاء در تصاویر* است.  
