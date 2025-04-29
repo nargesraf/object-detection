@@ -1,27 +1,54 @@
-# object-detection
-In this project by using Jupyter we make a program to detect some objects
-open file name object-detect.ipynb my codes are there
-# پروژه تشخیص اشیاء
+# Object Detection Project
 
-این پروژه یک مدل یادگیری ماشین برای *تشخیص اشیاء در تصاویر* است.  
-کدها در قالب یک فایل *Jupyter Notebook* نوشته شده‌اند و شامل مراحل آموزش و تست مدل می‌باشند.
+This project focuses on detecting multiple types of objects in images and video streams using deep learning models such as YOLO, SSD, or Faster R-CNN.
 
-## ویژگی‌ها
-- بارگذاری و پردازش داده‌های تصویری
-- آموزش مدل تشخیص اشیاء
-- پیش‌بینی اشیاء و رسم bounding box
-- تحلیل و ارزیابی نتایج مدل
+## Features
 
-## تکنولوژی‌های استفاده شده
-- Python
-- Jupyter Notebook
+- Detects objects in real-time or from static images
+- Supports YOLOv3, YOLOv5, and other state-of-the-art models
+- Outputs bounding boxes with class labels and confidence scores
+- Easy-to-use and highly customizable
+
+## Requirements
+
+- Python 3.8+
 - OpenCV
-- TensorFlow / PyTorch (بسته به مدل شما)
+- PyTorch
 - NumPy
-- Matplotlib
 
-## شروع سریع
+You can install the dependencies with:
 
-1. پیش‌نیازها را نصب کنید:
 ```bash
 pip install -r requirements.txt
+
+How to Run
+
+Detect objects in an image:
+
+python detect_objects.py --image path/to/image.jpg
+
+Detect objects in real-time using webcam:
+
+python detect_objects.py --webcam
+
+Example Output
+
+
+
+Dataset
+
+You can train or test the models using popular datasets such as:
+
+COCO
+
+Pascal VOC
+
+Custom datasets (in YOLO format)
+
+
+License
+
+This project is licensed under the MIT License.
+
+
+---
